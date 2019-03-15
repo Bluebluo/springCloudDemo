@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/Bluebluo/spring-cloud-config/
           search-paths: respo
-          username: 473497362@qq.com
-          password: lhm200888
+          username: 
+          password: 
       label: master
 server:
   port: 8888
