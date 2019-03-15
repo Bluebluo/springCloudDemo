@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Bluebluo/spring-cloud-config/
+          search-paths: respo
+          username: 473497362@qq.com
+          password: lhm200888
+      label: master
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/
+
